@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rafli Dhafin Kamil is a software engineer focused on full-stack web, Android, and DevOps.">
+  <meta name="theme-color" content="#f2f0eb">
+  <title>Rafli Dhafin Kamil | Software Engineer</title>
+  <link rel="icon" href="brand-mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand-link" href="#top" aria-label="Rafli Dhafin Kamil, back to top"><img class="brand-logo" src="brand-mark.svg" alt=""></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#profile">Profile</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="print-button" type="button" onclick="window.print()" aria-label="Print or save this CV as a PDF">Print CV <span aria-hidden="true">↗</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero page-grid" aria-labelledby="intro-title">
+      <p class="eyebrow">Software Engineer <span>/</span> Jakarta, Indonesia</p>
+      <div class="hero-copy">
+        <h1 id="intro-title">Rafli Dhafin<br><em>Kamil.</em></h1>
+        <p class="hero-summary">A fresh Software Engineering graduate building JavaScript-based web products, Flutter applications, and practical delivery workflows for real-world business and operational needs.</p>
+      </div>
+      <figure class="hero-portrait">
+        <img src="profile.png" alt="Portrait of Rafli Dhafin Kamil" onerror="this.closest('figure').classList.add('is-missing'); this.remove()">
+        <figcaption>Rafli Dhafin Kamil<br>"Caffeine Coder"</figcaption>
+      </figure>
+      <div class="hero-meta">
+        <p class="availability"><span class="status-dot"></span> #OpenToWork</p>
+        <a class="text-link" href="#contact">Let’s work together <span>↓</span></a>
+      </div>
+    </section>
+
+    <section id="profile" class="section page-grid" aria-labelledby="profile-title">
+      <div class="section-label"><span>01</span> Profile</div>
+      <div class="section-content profile-content">
+        <h2 id="profile-title">Full-stack thinking,<br>practical delivery.</h2>
+        <p class="lead">I build software for practical contexts, including MSME projects and monitoring applications connected to IoT, agriculture, and industrial workflows.</p>
+        <p>My strongest focus is JavaScript-based web development, with experience across framework-based and native web approaches. I also build with Flutter, and I enjoy the operational side of software: Docker, CI/CD, Linux servers, Nginx, Grafana, and Azure.</p>
+      </div>
+    </section>
+
+    <section id="education" class="section page-grid" aria-labelledby="education-title">
+      <div class="section-label"><span>02</span> Education</div>
+      <div class="section-content education-content">
+        <h2 id="education-title">Built on a strong<br>software foundation.</h2>
+        <div class="education-list">
+          <article class="education-card">
+            <div>
+              <p class="education-kicker">Bachelor of Software Engineering</p>
+              <h3>Telkom University</h3>
+            </div>
+            <div class="education-details">
+              <p><span>Program</span>S1 Rekayasa Perangkat Lunak</p>
+              <p><span>Graduated</span>2026</p>
+              <p><span>GPA</span>3.85 / 4.00</p>
+            </div>
+          </article>
+          <article class="education-card">
+            <div>
+              <p class="education-kicker">Vocational School / Software Engineering</p>
+              <h3>Telkom Jakarta<br>Vocational School</h3>
+            </div>
+            <div class="education-details">
+              <p><span>Program</span>Rekayasa Perangkat Lunak</p>
+              <p><span>Graduated</span>2022</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section page-grid" aria-labelledby="work-title">
+      <div class="section-label"><span>03</span> Capabilities</div>
+      <div class="section-content">
+        <h2 id="work-title">What I bring<br>to a team.</h2>
+        <div class="capability-list">
+          <article class="capability">
+            <span class="capability-number">01</span>
+            <div><h3>JavaScript web development</h3><p>Framework-based and native web applications, from user interfaces and APIs to data flows and maintainable product structure.</p></div>
+          </article>
+          <article class="capability">
+            <span class="capability-number">02</span>
+            <div><h3>Flutter applications</h3><p>Cross-platform mobile experiences with Flutter and Dart, with working familiarity in Kotlin-based Android development.</p></div>
+          </article>
+          <article class="capability">
+            <span class="capability-number">03</span>
+            <div><h3>Infrastructure & observability</h3><p>Docker, CI/CD, Linux, Nginx, Grafana, and Azure-based deployment workflows for software that needs to run reliably.</p></div>
+          </article>
+        </div>
+        <div class="project-list" aria-label="Selected projects">
+          <div class="projects-heading"><span>Selected work / edit these entries</span></div>
+          <article class="project-card">
+            <p class="project-kicker">Project 01 / IoT monitoring</p>
+            <h3>Kopi Lerem Web Control</h3>
+            <p>A JavaScript-based IoT log-monitoring project focused on viewing and managing operational data from a web interface.</p>
+            <div class="project-meta">
+              <span class="project-stack">JavaScript · IoT<br>Web monitoring</span>
+              <a class="project-link" href="https://github.com/PliTheGeek/kopi_lerem_web_control" target="_blank" rel="noreferrer">View repo ↗</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <p class="project-kicker">Project 02 / MSME platform</p>
+            <h3>Sijuna</h3>
+            <p>A project focused on practical digital support for MSME and cooperative workflows. Add the final project details and outcomes here when ready.</p>
+            <div class="project-meta">
+              <span class="project-stack">MSME · Web<br>Private project</span>
+              <a class="project-link" href="https://github.com/PliTheGeek/Sijuna" target="_blank" rel="noreferrer">View project ↗</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <p class="project-kicker">Project 03 / DevOps</p>
+            <h3>DevOps Final Project</h3>
+            <p>A DevOps study project focused on JavaScript services, CI/CD practices, and the workflow required to move software toward deployment.</p>
+            <div class="project-meta">
+              <span class="project-stack">JavaScript · CI/CD<br>DevOps study</span>
+              <a class="project-link" href="https://github.com/PliTheGeek/devops-final" target="_blank" rel="noreferrer">View repo ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-grid" aria-labelledby="stack-title">
+      <div class="section-label"><span>04</span> Toolkit</div>
+      <div class="section-content stack-content">
+        <h2 id="stack-title">Tools I use<br>to make things real.</h2>
+        <div class="stack-grid" aria-label="Technology areas">
+          <div><span>Web</span><strong>JavaScript · Framework-based · Native web</strong></div>
+          <div><span>Mobile</span><strong>Flutter · Dart · Kotlin familiarity</strong></div>
+          <div><span>Infrastructure</span><strong>Docker · CI/CD · Grafana · Nginx · Azure · Linux</strong></div>
+          <div><span>Mindset</span><strong>Agile development · Adaptability</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact page-grid" aria-labelledby="contact-title">
+      <div class="section-label"><span>05</span> Contact</div>
+      <div class="contact-content">
+        <p class="eyebrow">Have a project in mind?</p>
+        <h2 id="contact-title">Let’s build<br><em>something useful.</em></h2>
+        <div class="contact-links">
+          <a href="mailto:dhafin.kamil@gmail.com">dhafin.kamil@gmail.com <span>↗</span></a>
+          <a href="https://github.com/PliTheGeek" target="_blank" rel="noreferrer">github.com/PliTheGeek <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/rafli-dhafin-155b92221/" target="_blank" rel="noreferrer">linkedin.com/in/rafli-dhafin-155b92221 <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Rafli Dhafin Kamil</span>
+    <span>#CaffeineCoder</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
